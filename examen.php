@@ -1,5 +1,7 @@
 <?php
 session_start();
+if ($_SERVER["REQUEST_METHOD"] == "POST"): // IF que escriba html, en vez de php
+
 /*  __      __        _       _     _           
     \ \    / /       (_)     | |   | |          
      \ \  / /_ _ _ __ _  __ _| |__ | | ___  ___ 
@@ -164,6 +166,7 @@ if ($_SESSION["jugar"]) {
             $comprobar = "No has escogido que sea par o impar";
         }
     }
+    
 }
 else {
     $coger_paridad = null;
@@ -188,7 +191,6 @@ else {
 <body>
     <form action="<?= (htmlspecialchars($_SERVER["PHP_SELF"])); //El php se escribe en el propio documento.?>" method="post">
     <h1>Examen</h1>
-    <?php if ($_SERVER["REQUEST_METHOD"] == "POST"): // IF que escriba html, en vez de php?>
 
             <p>Objetivo: <input type="text" name="valor_usuario" placeholder="Número"> <input type="submit" name="submit" value="Enviar"></p>
             <p>Par: <input type="radio" name="coger_paridad" value="Par"> Impar: <input type="radio" name="coger_paridad"  value="Impar"></p>
@@ -232,7 +234,15 @@ else {
                 $_SESSION['puntuacion'] = 10;
             }
     ?>
-            
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego de dados</title>
+    <link rel="stylesheet" href="../estilo/examen_php.css">
+</head>
+<body>
+    <form action="<?= (htmlspecialchars($_SERVER["PHP_SELF"])); //El php se escribe en el propio documento.?>" method="post">
+    <h1>Examen</h1>
         <p>Objetivo: <input type="text" name="valor_usuario" placeholder="Número"> <input type="submit" name="submit" value="Enviar"></p>
         <p>Par: <input type="radio" name="coger_paridad" value="Par"> Impar: <input type="radio" name="coger_paridad"  value="Impar"></p>
         
