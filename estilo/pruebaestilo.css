@@ -1,0 +1,59 @@
+body.manzana{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/30/18/01/apple-1783882_960_720.png');
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Comic Sans MS', 'Comic Sans';
+  font-size:30px;
+  text-align: center;
+}
+
+img.manzana{
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/02/03/14/fuji-apple-8228073_960_720.jpg');
+}
+
+h2.manzana{
+    color: blue;
+}
+
+h1.manzana{
+    color:green;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body.naranja{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2019/03/19/18/25/orange-4066509_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Comic Sans MS', 'Comic Sans';
+  font-size:30px;
+  text-align: center;
+}
+
+input.naranja {
+    background-color: orange    ;
+}
+
+body.ejercicio2{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Comic Sans MS', 'Comic Sans';
+  font-size:30px;
+  text-align: center;
+}

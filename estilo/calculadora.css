@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  text-align: center;
+  background-color: darkmagenta;
+}
+
+div.caja{ /*    Cajita rosa        */
+    font-family: Arial, Helvetica, sans-serif;
+    flex:auto;
+    background-color: pink;
+    height: auto;
+	min-height: 350px;
+	width: 600px;
+	margin: 60px auto;
+    padding: 2.5% 5% 10% 5%; /*2.5% para que no tenga tanto espacio comparado con abajo*/
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+    border-radius: 20px;
+}
+
+img{
+    margin: 10px 10px 10px;
+    width: 20px;
+}
+
+.resultado{
+    background-color: #fcd9df;
+    margin: 20px auto;
+    height: auto;
+    width: 220px;
+    padding: 8px 8px;
+    border: 2px solid black;
+}
+
+button{
+    margin: 5px 5px;
+}
+.boton{
+    margin: 5px 5px;
+}
+
+.tabla {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

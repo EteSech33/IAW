@@ -1,0 +1,22 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  text-align: center;
+  background-color: darkgray;
+}
+
+div.caja{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e619;
+	height: 300px;
+	width: 600px;
+	margin: 120px auto;
+    padding: 10px 5% 30px;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+    border-radius: 20px;
+}

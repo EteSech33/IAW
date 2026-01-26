@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-size:18px;
+  text-align: center;
+  background-color: #f0f0f0;
+  flex: auto;
+
+}
+
+.obligatorio {
+    color:red;
+}
+
